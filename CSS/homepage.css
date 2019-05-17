@@ -1,0 +1,490 @@
+.imgbag
+{	
+
+	background-image: url('../image/hills.jpeg');
+	height: 600px;
+	width: 1270px;
+	background-size: cover;	
+}
+.navbar
+{
+	position: fixed;
+	top: 0%;
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	height: 60px;
+
+}
+
+h1,p
+{
+	text-align: center;
+	color: white;
+}
+.navbar a
+{
+	color: white;
+}
+#get
+{
+	border-radius: 50px;
+	height: 40px;
+	margin-left: 45%;
+	width: 136px;
+	background-color: #DC143C;
+}
+
+.item2
+{
+	margin-left: 376px;
+}
+.item3
+{
+	margin-left: 30px;
+}
+.grid-container
+{
+	display: grid;
+	grid-template-columns: 400px;
+	grid-template-rows: 100px 100px 100px 100px 100px ;
+	background-image: url("../image/create.jpeg");
+	width: 977px;
+	margin-left: 119px
+
+}
+.page2
+{
+	background-color: #DC143C;
+	height: 431px;
+	width: 450px;
+	margin-top: 130px;
+	margin-left: 443px;
+	text-align: left;
+}
+#read
+{
+	margin-left: 23px;
+	height: 34px;
+	width: 115px;
+	border-radius: 50px;
+	background-color: gray;
+}
+#team
+{
+	
+	height: 149px;
+	width: 346px;
+	margin-left: 115px;
+}
+h2
+{
+	color: red;
+}
+.grid-container1
+{
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-template-rows: 200px 200px;
+	grid-column-gap: 30px;
+	grid-row-gap: 60px;
+	margin-left: 115px;
+}
+img
+{
+	height: 200px;
+	width: 250px;
+}
+
+#clr
+{
+	color: gray;
+}
+.img1
+{
+	height: 245px;
+	background-color: lightgray;
+}
+.grid-container2
+{
+	display: inline-grid;
+	grid-template-columns: 500px 500px;
+	grid-template-rows: 400px;
+	grid-column-gap: 50px;
+	margin-left: 115px;
+}
+.item4
+{
+	background-image: url("../image/laptop.jpg");
+	width: 500px;
+}
+
+#prev
+{
+	margin-top: 75%;
+	height: 43px;
+	width: 148px;
+	margin-left: 185px;
+	background-color: #DC143C;
+	border-radius: 8px
+}
+#learn
+{
+	height: 41px;
+	width: 136px;
+	border-radius: 50px;
+	background-color: #DC143C;
+}
+#item7
+{
+	margin-left: 115px;
+	height: 50px;
+
+}
+#item7>p
+{
+	color: #DC143C;
+	
+	text-align: left;
+	height: 40px;
+	font-size: 30px;
+}
+.flex-container
+{
+	display: flex;
+
+	margin-left: 115px;
+	width: 84%;
+	justify-content: space-between;
+}
+.flex-container>div>p
+{
+	color: gray;
+	text-align: left;
+}
+.flex-container>div>h2
+{
+	color: black;
+}
+.container
+{
+	background-color: gray;
+	height: 100%;
+	width: 100%;
+}
+.team
+{
+	background-color: lightgray;
+	height: 700px;
+	width: 100%;
+}
+.grid-container4
+{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-template-rows: 200px 250px 250px;
+	justify-content: space-around;
+	grid-gap: 10px;
+}
+.grid-container4>div>a
+{
+	color: red;
+	text-decoration: none;
+}
+
+.itm1
+{	
+	grid-area: 1 / 1 / span 1 / span 3;
+	color: #DC143C;
+}
+
+.itm2 p,h4
+{
+	grid-area: 2 / 1 / span 1 / span 1;
+	color: gray;
+	text-align: left;
+}
+.itm3 p,h4
+{
+	grid-area: 2 / 2 / span 1 / span 1;
+	color: gray;
+	text-align: left;
+}
+.itm4 p,h4
+{
+	grid-area: 2 / 3 / span 1 / span 1;
+	color: gray;
+	text-align: left;
+}
+.itm5 p,h4
+{
+	grid-area: 3 / 1 / span 1 / span 1;
+	color: gray;
+	text-align: left;
+}
+.itm6 p,h4
+{
+	grid-area: 3 / 2 / span 1 / span 1;
+	color: gray;
+	text-align: left;
+}
+.itm7 p,h4
+{
+	grid-area: 3 / 3 / span 1 / span 1;
+	color: gray;
+	text-align: left;
+}
+#tmclr
+{
+	color: #DC143C;
+	font-size: 60px;
+}
+.testimonial>div 
+{
+	height: 390px;
+	width: 600px;
+
+	margin-left: 22%;
+	padding: 26px
+
+}
+.testimonial h1
+{
+	color: #DC143C;
+	font-size: 60px;
+}
+.testimonial p
+{
+	color: gray;
+	font-size: 35px;
+}
+.timg
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	margin-left: 40%;
+}
+.grid-container4 i
+{
+	color: #DC143C;
+	font-size: 50px;
+}
+.grid-container6
+{
+	display: grid;
+	grid-template-columns: 200px 200px;
+	grid-template-rows: 100px 300px;
+	grid-column-gap: 10px;
+	grid-row-gap: 30px;
+	padding: 86px;
+}
+.sitm1
+{
+	grid-area: 1 / 1 / span 1 / span 2;
+	/*background-color: gray;*/
+	font-size: 30px;
+	color: #DC143C;
+	font-weight: bold;
+}
+.sitm2
+{
+	grid-area: 1 / 3 / span 3 / span 2;
+	/*background-color: gray;*/
+}
+.sitm3
+{
+	grid-area: 2 / 1 / span 1 / span 1;
+}
+.sitm4
+{
+	grid-area: 2 / 2 / span 1 / span 1;
+	
+}
+#sec
+{
+	grid-area:2 / 3 / span 2 / span 3;
+	margin-top: 207px;
+	margin-left: 218px;
+	height: 53px;
+	width: 121px;
+	border-radius: 9px;
+	background-color: #DC143C;
+}
+
+.sitm2 img
+{
+	height: 80%;
+	width: 80%;
+}
+.sitm3 h3
+{
+	color: gray;
+}
+.sitm3 p
+{
+	color: gray;
+}
+.sitm4 h3
+{
+	color: gray;
+}
+.sitm4 p
+{
+	color: gray;
+}
+.grid-container6 a,i
+{
+	color: #DC143C;
+	text-decoration: none;
+}
+
+.box1
+{
+	height: 27px;
+
+	border-radius: 20px
+}
+.box2
+{
+	width: 417px;
+	height: 27px;
+	border-radius: 20px
+}
+.send
+{
+	margin-top: 8px;
+	height: 34px;
+	border-radius: 50px;
+	background-color: #DC143C;
+}
+.sevitm
+{
+
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #DC143C;
+}
+.tab
+{
+	margin-left: 20%;
+}
+.tab h3
+{
+	color: gray;
+}
+.tab p
+{
+	color: gray;
+}
+.tab a
+{
+	color: #DC143C;
+	text-decoration: none;
+}
+#foot
+{
+	height: 500px;
+	width: 1300px;
+	background-color: black;
+}
+.flex-container1
+{
+	display: flex;
+	height: 400px;
+	
+}
+.fitm1
+{
+	background-color: black;
+	flex-grow: 4;
+	padding-left: 100px;
+	padding-top: 10px;
+}
+.fitm2
+{
+	background-color: black;
+	flex-grow: 0;
+	padding: 10px;
+}
+.fitm3
+{
+	background-color: black;
+	flex-grow: 3;
+	padding: 10px;
+	padding-left: 50px;
+}
+.fitm1 p
+{
+	height: 78px;
+	width: 416px;
+	text-align: left;
+	color: gray;
+}
+.flex-container1 h3
+{
+	color: white;
+	font-weight: bold;
+}
+.fitm2 a
+{
+	text-decoration: none;
+	color: gray;
+}
+#enter
+{
+	height: 36px;
+	border-radius: 50px 0px 0px 50px
+}
+#send
+{
+	height: 36px;
+	width: 84px;
+	border-radius: 0px 50px 50px 0px;
+	background-color: #DC143C;
+}
+.fitm3 i
+{
+	color: gray;
+	font-size: 20px;
+}
+.bhead
+{
+	width: 100%;
+	height: 100px;
+	color: #DC143C;
+	text-align: center;
+	
+}
+
+.flex-container8
+{
+	display: flex;
+	margin: 10px;
+	padding: 30px;
+	justify-content: space-around;
+}
+.bitm1 img
+{
+	width: 317px;
+	height: 266px;
+}
+.bitm1
+{
+	height: 500px;
+	width: 300px;
+}
+.bitm1 h2,a
+{
+	color: #DC143C;
+	text-decoration: none;
+}
+.bitm1 p
+{
+	color: gray;
+}
+
+
+
+
